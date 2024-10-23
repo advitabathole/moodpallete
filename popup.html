@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Palette</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <h1>Mood Palette</h1>
+    <div id="moodPalette">
+        <div class="color" data-mood="happy" style="background-color: yellow;"></div>
+        <div class="color" data-mood="sad" style="background-color: blue;"></div>
+        <div class="color" data-mood="excited" style="background-color: orange;"></div>
+        <div class="color" data-mood="relaxed" style="background-color: green;"></div>
+        <div class="color" data-mood="angry" style="background-color: red;"></div>
+    </div>
+    <div id="suggestion"></div>
+    <div id="quote"></div>
+    <button id="logMoodBtn">Log Mood</button>
+    <h2>Mood History</h2>
+    <ul id="moodHistory"></ul>
+    <script src="popup.js"></script>
+</body>
+</html>
